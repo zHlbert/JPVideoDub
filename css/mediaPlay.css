@@ -1,0 +1,221 @@
+@CHARSET "UTF-8";
+#mediaDiv
+{
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	height: 526px;
+	border: 2px solid #87CEFF;
+	width: 960px;
+}
+
+#mediaPlayDiv
+{
+	/*position: relative;
+	top: 40px;*/
+	float: left;
+	width: 640px;
+	margin: 0 auto;
+	border-right: 2px solid #87CEFF;
+	height: 100%;
+	/*height: 600px;*/
+}
+
+#playerLocation
+{
+	position: relative;
+	top: 0;
+	/*margin: 0 auto;*/
+	width: 100%;
+	height: 360px;
+	border-bottom: 2px solid #87CEFF;
+	border-top: 2px solid #87CEFF;
+}
+
+#mediaHead
+{
+	position: relative;
+	top: 0px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#mediaItems
+{
+	position: relative;	
+	top: 0;
+	height: 64px;
+}
+
+#voteDiv
+{
+	float: left;
+	left: 0px;
+	width: 48%;
+	/*border-right: 2px solid #87CEFF;*/
+	height: 100%;
+	padding: 0px 0px 0px 6px;
+}
+
+#downloadDiv
+{
+	float: left;
+	/*left: 50%;*/
+	width: 48%;
+	height: 100%;
+}
+
+#downloadBtn
+{
+	position: relative;
+	top: 18%;
+	left: 40%;
+}
+
+#loginBtn
+{
+	position: relative;
+	top: 18%;
+	left: 28%;
+}
+
+#topic
+{
+	position: relative;
+	top: 14px;
+}
+
+#mediaTitle
+{
+	float: left;
+	/*position: relative;*/
+	height: 50%;
+	line-height: 50%;
+	width: 570px;
+	overflow: hidden;
+}
+
+#mediaHeadBottom
+{
+	position: relative;
+	float: left;
+	/*left: 10px;*/
+	top: 6px;
+	width: 160px; 
+	height: 34px;
+	overflow: hidden;
+}
+
+#uploader
+{
+	float: left;
+	/*left: 2px;*/
+	/*height: 42%;*/
+	overflow: hidden; 
+}
+
+#topicstar
+{
+	float: right;
+	width: 46px;
+	height: 98%;
+	/*padding: 1% 0;*/
+}
+
+#topicstar a
+{	
+	position: relative;
+	top: 19px;
+}
+
+.user-avatar-img-tiny
+{
+	position: relative;
+	top: 2px;
+	/*padding: 2px;*/
+}
+
+#mediaInfo
+{
+	float: left;
+	height: 100%;
+	width: 316px;
+}
+
+#mediaDubRelated
+{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 84px;
+	border-bottom: 2px solid #87CEFF;
+}
+
+#mediaDescription
+{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 490px;
+}
+
+/*.tagContentDiv
+{
+	float: left;
+	border: 4px solid #FFB90F;
+	background-color: #EE7600;
+	height: 30px;
+	width: 90px;
+	padding: 0;
+	margin: 2px;
+	text-align: center;
+	line-height: 30px;
+	overflow: hidden;
+	color: white;
+}*/
+
+a.thumb-up
+{
+	/*position: relative;*/
+	float: left;
+	height: 60px;
+	width: 60px;
+	background-repeat: no-repeat; 
+	background-image: url('../image/thumb2.jpg');
+	background-position: -60px 0px;
+	display: block;
+	overflow: fidden;
+}
+
+a.thumb-up-link
+{
+	background-image: url('../image/thumb2.jpg'); 
+	background-position: -60px 0px;
+}
+
+a.thumb-up:hover
+{
+	background-image: url('../image/thumb2.jpg'); 
+	background-position: -60px -58px;
+}
+a.thumb-up-active
+{
+	background-image: url('../image/thumb2.jpg'); 
+	background-position: -4.5px -58px;
+}
+
+#topic
+{
+	position: relative;
+	top: 2px;
+	height: 62px;
+	overflow: hidden;
+}
+
+.count
+{
+	float: left;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+}

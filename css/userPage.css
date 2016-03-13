@@ -1,0 +1,337 @@
+@CHARSET "UTF-8";
+.u-form
+{
+	position: relative;
+	top: 80px;
+	left: 18%;
+	width: 64%;
+}
+.u-tb
+{
+	/*margin: 0 auto;*/
+	width: 520px;
+}
+.u-tr
+{
+	height: 40px;
+}
+#u-addMedia-tb
+{
+	position: relative;
+	left: 100px;
+	width: 580px;
+}
+
+#u-stage-tr
+{
+	height: 40px;
+	line-height: 40px; 
+}
+
+#u-contest-tr
+{
+	height: 46px;
+	line-height: 46px; 
+}
+
+.label-td
+{
+	width: 100px;
+}
+
+.text-td
+{
+	width: 216px;
+}
+
+#u-title-td
+{
+	width: 112px; 
+}
+
+.u-tag-tr
+{
+	height: 40px;
+	line-height: 40px;
+}
+.u-text
+{
+	height: 23px;
+	padding: 0px;
+	font-size: 15px;
+	width: 100%;
+}
+
+#user-main
+{
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	height: 500px;
+	width: 870px;
+	border: 3px solid rgb(10,109,252);
+}
+
+#userSideBar
+{
+	position: absolute;
+	left: 1030px;
+	top: 220px;
+	/*height: 330px;
+	width: 220px;*/
+	/*border: 1px solid black;*/
+}
+
+.userSideBarList
+{
+	height: 60px;
+	width: 170px;
+	/*border: 1px solid white;*/
+	border-bottom: 1px solid rgb(166, 201, 226);
+	text-align: center;
+	line-height: 60px;
+	padding: 3px 12.32px 3px 12.32px;  
+}
+
+#userIcon
+{
+	height: 90px;
+	line-height: 90px;
+}
+
+.userSideBarList:hover
+{
+	
+}
+
+.userSideBarList:active
+{
+	color: black;
+}
+
+#user-avatar-div
+{
+	position: relative;
+	top: 40px;
+	left: 22%;
+	width: 56%;
+}
+
+#user-avatar-img
+{
+	position: relative;
+	left: 32%;
+	border: 2px solid black;
+	width: 160px;
+	height: 160px;
+}
+
+#avatar-upload-field
+{
+	position: relative;
+	top: 30px;
+	width: 440px;
+}
+
+#avatar_select
+{
+	width: 400px;
+}
+
+#user-avatar-img-mid
+{
+	position: relative;
+	top: 16px;
+	width: 60px;
+	height: 60px;
+}
+
+#des-area
+{
+	height: 160px;
+}
+
+.u-textarea
+{
+	resize: none;
+	padding: 0;
+	position: relative;
+	top: 0;
+	height: 150px;
+	width: 100%;
+}
+
+#addMedia
+{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#mdfPw-fs
+{
+	position: relative;
+	top: 12%;
+	left: 10%;
+	width: 76%;
+	height: 70%; 
+	
+}
+
+.userMediaShow
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #F0F0F0;
+}
+
+.userMediaDiv
+{
+	position: relative;
+	width: 794px;
+	height: 212px;
+	margin: 12px 8px 8px 8px;
+	background-color: #FFFFFF; 
+}
+
+.userMediaDiv:hover
+{
+	background-color: #87CEFF;
+}
+
+.unfold
+{
+	height: auto;
+}
+
+.unfold:hover
+{
+	background-color: #FFFFFF;
+}
+
+
+.userMediaTitle
+{
+	position: relative;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.userMediaSnapshot
+{
+	position: relative;
+	margin: 4px;
+	width: 240px;
+	height: 135px;
+}
+
+.userMediaImg
+{
+	width: 100%;
+	height: 100%;
+}
+
+.userMediaUploadTime
+{
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.userMediaBoolean
+{
+	position: relative;
+	top: 28px;
+	height: 120px;
+}
+
+.userMediaLeft
+{
+	float: left;
+	width: 248px;
+	height: 100%;
+	border-right: 2px solid #F0F0F0;/*rgb(166, 201, 226)*/
+}
+
+.userMediaMid
+{
+	float: left;
+	width: 346px;
+	height: 100%;
+	border-right: 2px solid #F0F0F0;/*rgb(166, 201, 226)*/
+}
+
+.userMediaRight
+{
+	float: left;
+	width: 190px;
+	height: 100%;
+	text-align: center;
+}
+
+#userPaginationDiv
+{
+	float: left;
+	width: 100%;
+	/*top: 770px;*/
+}
+
+.userCheckingMediaInfo
+{
+	position: relative;
+	height: 465px;
+	width: 720px;
+}
+
+.uploaderDiv
+{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+}
+
+.uploadTimeDiv
+{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+
+.uploaderTimeDiv
+{
+	position: relative;
+	height: 60px;
+	width: 720px;
+}
+
+.fold-btn
+{
+	text-align: center;
+}
+
+/*.userMediaChecking*/
+
+#examineMedia
+{
+	margin: 0 auto;
+	width: 90%;
+}
+
+#u-examineMedia-tb
+{
+	position: relative;
+	left: 110px;
+	width: 560px;
+}
+
+/*#isPassedDiv
+{
+	height: 40px;
+}*/
+
+.passedButtonSet
+{
+	width: 108px;
+}

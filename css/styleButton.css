@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+/* Button Style 10 */
+
+/*Normal*/
+.inup-button {
+	/*background-color: #85DD7C;*/
+	/*border: 1px solid #158D34;*/
+	/*-moz-box-shadow:inset 0px 0px 1px rgba(26,154,72,1);
+	-webkit-box-shadow:inset 0px 0px 1px rgba(26,154,72,1);
+	box-shadow:inset 0px 0px 1px rgba(26,154,72,1);*/
+	/*background-image: -o-linear-gradient(90deg , rgb(112,201,101) 0%, rgb(182,237,176) 100%);
+	background-image: -moz-linear-gradient(90deg , rgb(112,201,101) 0%, rgb(182,237,176) 100%);
+	background-image: -webkit-linear-gradient(90deg , rgb(112,201,101) 0%, rgb(182,237,176) 100%);
+	background-image: -ms-linear-gradient(90deg , rgb(112,201,101) 0%, rgb(182,237,176) 100%);
+	background-image: linear-gradient(90deg , rgb(112,201,101) 0%, rgb(182,237,176) 100%);*/
+	color: rgb(25,166,245);
+	/*text-shadow: rgba(254,252,252,0.5) 0px 1px 0px;*/
+	
+	
+}
+
+
+/*Hover*/
+.inup-button:hover {
+	background-color: /*#A7ED9E;*/#d0e5f5;
+	background-image: -o-linear-gradient(90deg , rgb(138,211,129) 0%, rgb(204,237,200) 100%);
+	background-image: -moz-linear-gradient(90deg , rgb(138,211,129) 0%, rgb(204,237,200) 100%);
+	background-image: -webkit-linear-gradient(90deg , rgb(138,211,129) 0%, rgb(204,237,200) 100%);
+	background-image: -ms-linear-gradient(90deg , rgb(138,211,129) 0%, rgb(204,237,200) 100%);
+	background-image: linear-gradient(90deg , rgb(138,211,129) 0%, rgb(204,237,200) 100%);
+	}
+
+
+/*Active*/
+.inup-button:active {
+	background-color: #5DC34E;
+	-moz-box-shadow:inset 0px 0px 5px rgba(26,154,72,1);
+	-webkit-box-shadow:inset 0px 0px 5px rgba(26,154,72,1);
+	box-shadow:inset 0px 0px 5px rgba(26,154,72,1);
+	background-image: -o-linear-gradient(90deg , rgb(182,237,176) 0%, rgb(112,201,101) 100%);
+	background-image: -moz-linear-gradient(90deg , rgb(182,237,176) 0%, rgb(112,201,101) 100%);
+	background-image: -webkit-linear-gradient(90deg , rgb(182,237,176) 0%, rgb(112,201,101) 100%);
+	background-image: -ms-linear-gradient(90deg , rgb(182,237,176) 0%, rgb(112,201,101) 100%);
+	background-image: linear-gradient(90deg , rgb(182,237,176) 0%, rgb(112,201,101) 100%);
+	text-shadow: none;
+}

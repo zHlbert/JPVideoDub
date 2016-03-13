@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+div#searchResults
+{
+	/*position: absolute;*/
+	float: left;
+	width: 800px;
+	margin: 20px 0 0 116px;
+	/*height: 700px;*/
+	/*left: 290px;*/
+	/*top: 170px;*/
+	left: 32px;
+	text-align: center;
+	border: 2px solid #87CEFF;
+	background-color: #F0F0F0;
+}
+
+.resultMediaDiv
+{
+	float: left;
+	width: 250px;
+	height: 250px;
+	/*background-color: #B3EE3A;*/
+	margin: 8px;
+	background-color: white;
+}
+
+.resultMediaDiv:hover
+{
+	background-color: #87CEFF;
+}
+
+.resultMediaSnapshot
+{
+	position: relative;
+	margin: 4px 0 4px 4px;
+	width: 240px;
+	height: 135px;
+}
+.resultMediaImg
+{
+	width: 100%;
+	height: 100%;
+}
+#resultPaginationDiv
+{
+	float: left;
+	width: 100%;
+	/*top: 770px;*/
+}
+
+.resultMediaInfo
+{
+
+}
+
+#dubbedMediaShowDiv
+{
+	position: relative;
+	top: 32px;
+	/*left: 80px;*/
+	margin: 0 auto;
+	width: 1330px;
+	border: 2px solid #87CEFF;
+}
+
+.dubbedMediaCollectDiv
+{
+	positiom: relative;
+	width: 100%;
+	/*height: 304px;*/
+	background-color: #F0F0F0;
+}
